@@ -1,10 +1,10 @@
-# VIM - MiniGo
+# vim-minigo
 
 This is a minimal version of [vim-go](https://github.com/fatih/vim-go). I removed all LSP code, because [coc.nvim](https://github.com/neoclide/coc.nvim) has already provided full LSP support for Go. If vim-go and coc.nvim are used together, two gopls processes will be started, resulting in a waste of resources.
 
 You might ask, why not just use coc.nvim directly? Since coc.nvim lacks some customized support for Go, such as enhanced syntax highlight, invocation of some Go tools, etc.
 
-So I removed all the gopls code in vim-go, so that you can use gopls by coc.nvim, go tools (such as gofmt, goaddtag, fold, etc) by vim-go.
+With this plugin, you can use LSP support provided by coc.nvim; syntax highlight and Go tools provided by vim-go.
 
 ## Install
 
