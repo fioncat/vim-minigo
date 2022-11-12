@@ -1,3 +1,5 @@
+**This is deprecated. Now you can disable lsp in vim-go. Please refer to [vim-go](https://github.com/fatih/vim-go) for more details.**
+
 # vim-minigo
 
 This is a minimal version of [vim-go](https://github.com/fatih/vim-go). I removed all LSP code, because [coc.nvim](https://github.com/neoclide/coc.nvim) has already provided full LSP support for Go. If vim-go and coc.nvim are used together, two gopls processes will be started, resulting in a waste of resources.
